@@ -6,7 +6,7 @@ use App\Http\Controllers\UserController;
 use App\Http\Controllers\OrderController;
 use App\Http\Controllers\TicketController;
 use App\Http\Controllers\SpeakerController;
-
+use GuzzleHttp\Promise\Create;
 
 Route::get('/', function () {return view('index');
 });
@@ -32,6 +32,7 @@ Route::get('/order/{id}',[TicketController::class,'show'
 ]);
 
 
-Route::get('/speaker/{id}',[SpeakerController::class,'guest'
+Route::get('/speaker/{id}',[SpeakerController::class,'speakers'
 ]);
 
+Route::get('/ss',function () {return view('speaker.create');});

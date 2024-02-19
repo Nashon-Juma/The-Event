@@ -5,9 +5,18 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class buy extends Model
+class speaker extends Model
 {
     use HasFactory;
-    protected $table = 'buy';
-
+    protected $table = 'speakers';
 }
+
+class photo extends Model{
+    protected $table = 'speaker_photo';
+}
+
+
+
+
+
+

@@ -17,9 +17,9 @@ class TicketController extends Controller
         ]);
     }
     public function show($id){
-        return view('pizza.show',['id'=>$id]);
+        return view('buyers.show',['id'=>$id]);
     }
     public function create(){
-        return view('pizza.create');
+        return view('buyers.create');
     }
 }

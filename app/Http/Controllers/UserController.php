@@ -6,8 +6,5 @@ use Illuminate\Http\Request;
 
 class UserController extends Controller
 {
-    function nez(){
-        echo "<head><link rel='shortcut icon' href='img/icon.png' type='image/x-icon'><title style='color:red;'>Users</title></head>";
-        echo "Welcome to the world!";
-    }
+    
 }
