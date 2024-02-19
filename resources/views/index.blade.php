@@ -1,40 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>TheEvent Bootstrap Template - Index</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: TheEvent
-  * Updated: Feb 06 2024 with Bootstrap v5.3.2
-  * Template URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
-</head>
-
+<x-header/>
 <body>
 
   <!-- ======= Header ======= -->
@@ -56,24 +21,25 @@
           <li><a class="nav-link scrollto" href="#venue">Venue</a></li>
           <li><a class="nav-link scrollto" href="#hotels">Hotels</a></li>
           <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
-          <li><a class="nav-link scrollto" href="#supporters">Sponsors</a></li>
-          <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+
+     <li class="dropdown"><a href="#"><span>More info</span> <i class="bi bi-chevron-down"></i></a>
           <ul>
-            <li><a href="#">Drop Down 1</a></li>
-            <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+            <li><a href="#">Call center</a></li>
+            <li class="dropdown"><a href="#"><span>Help center</span> <i class="bi bi-chevron-right"></i></a>
               <ul>
-                <li><a href="#">Deep Drop Down 1</a></li>
-                <li><a href="#">Deep Drop Down 2</a></li>
-                <li><a href="#">Deep Drop Down 3</a></li>
-                <li><a href="#">Deep Drop Down 4</a></li>
-                <li><a href="#">Deep Drop Down 5</a></li>
+                <li><a href="#">Help/FAQs</a></li>
+                <li><a href="#">Related Links</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">Actions</a></li>
+                <li><a href="#">Feedback</a></li>
               </ul>
             </li>
-            <li><a href="#">Drop Down 2</a></li>
-            <li><a href="#">Drop Down 3</a></li>
-            <li><a href="#">Drop Down 4</a></li>
+            <li><a href="#">Social Media Links</a></li>
+            <li><a href="#">Support/Documentation</a></li>
+            <li><a href="#">Notifications</a></li>
           </ul>
-        </li> -->
+    </li>
+
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -88,7 +54,8 @@
     <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
       <h1 class="mb-4 pb-0">The Annual<br><span>Marketing</span> Conference</h1>
       <p class="mb-4 pb-0">10-12 December, Downtown Conference Center, New York</p>
-      <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox play-btn mb-4"></a>
+      <a href="" class="glightbox play-btn mb-4"></a>
+
       <a href="#about" class="about-btn scrollto">About The Event</a>
     </div>
   </section><!-- End Hero Section -->
@@ -100,7 +67,7 @@
       <div class="container position-relative" data-aos="fade-up">
         <div class="row">
           <div class="col-lg-6">
-            <h2>About The Event</h2>
+            <h2>About The Next Event</h2>
             <p>Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
               accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
               est ut optio sequi unde.</p>
@@ -130,7 +97,7 @@
             <div class="speaker" data-aos="fade-up" data-aos-delay="100">
               <img src="assets/img/speakers/1.jpg" alt="Speaker 1" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Brenden Legros</a></h3>
+                <h3><a href="/speaker/one">Brendon Legros</a></h3>
                 <p>Quas alias incidunt</p>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
@@ -145,7 +112,7 @@
             <div class="speaker" data-aos="fade-up" data-aos-delay="200">
               <img src="assets/img/speakers/2.jpg" alt="Speaker 2" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Hubert Hirthe</a></h3>
+                <h3><a href="speakertwo">Hubert Hirthe</a></h3>
                 <p>Consequuntur odio aut</p>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
@@ -160,7 +127,7 @@
             <div class="speaker" data-aos="fade-up" data-aos-delay="300">
               <img src="assets/img/speakers/3.jpg" alt="Speaker 3" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Cole Emmerich</a></h3>
+                <h3><a href="speakerthree">Cole Emmerich</a></h3>
                 <p>Fugiat laborum et</p>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
@@ -175,7 +142,7 @@
             <div class="speaker" data-aos="fade-up" data-aos-delay="100">
               <img src="assets/img/speakers/4.jpg" alt="Speaker 4" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Jack Christiansen</a></h3>
+                <h3><a href="speakerfour">Jack Christiansen</a></h3>
                 <p>Debitis iure vero</p>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
@@ -190,7 +157,7 @@
             <div class="speaker" data-aos="fade-up" data-aos-delay="200">
               <img src="assets/img/speakers/5.jpg" alt="Speaker 5" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Alejandrin Littel</a></h3>
+                <h3><a href="speakerfive">James Littel</a></h3>
                 <p>Qui molestiae natus</p>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
@@ -205,7 +172,7 @@
             <div class="speaker" data-aos="fade-up" data-aos-delay="300">
               <img src="assets/img/speakers/6.jpg" alt="Speaker 6" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Willow Trantow</a></h3>
+                <h3><a href="speakersix">Willow Trantow</a></h3>
                 <p>Non autem dicta</p>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
@@ -494,7 +461,7 @@
           <div class="col-lg-6 venue-info">
             <div class="row justify-content-center">
               <div class="col-11 col-lg-8 position-relative">
-                <h3>Downtown Conference Center, New York</h3>
+                <h3>Downtown Conference Center, Nairobi</h3>
                 <p>Iste nobis eum sapiente sunt enim dolores labore accusantium autem. Cumque beatae ipsam. Est quae sit qui voluptatem corporis velit. Qui maxime accusamus possimus. Consequatur sequi et ea suscipit enim nesciunt quia velit.</p>
               </div>
             </div>
