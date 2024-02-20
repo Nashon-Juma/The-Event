@@ -2,7 +2,7 @@
 
 
 @section('content')
-  
+
   <!-- ======= Hero Section ======= -->
   <section id="hero">
     <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
@@ -629,7 +629,7 @@
             <div class="card mb-5 mb-lg-0">
               <div class="card-body">
                 <h5 class="card-title text-muted text-uppercase text-center">Standard Access</h5>
-                <h6 class="card-price text-center">$150</h6>
+                <h6 class="card-price text-center">Ksh.150</h6>
                 <hr>
                 <ul class="fa-ul">
                   <li><span class="fa-li"><i class="fa fa-check"></i></span>Regular Seating</li>
@@ -650,7 +650,7 @@
             <div class="card mb-5 mb-lg-0">
               <div class="card-body">
                 <h5 class="card-title text-muted text-uppercase text-center">Pro Access</h5>
-                <h6 class="card-price text-center">$250</h6>
+                <h6 class="card-price text-center">Ksh.250</h6>
                 <hr>
                 <ul class="fa-ul">
                   <li><span class="fa-li"><i class="fa fa-check"></i></span>Regular Seating</li>
@@ -672,7 +672,7 @@
             <div class="card">
               <div class="card-body">
                 <h5 class="card-title text-muted text-uppercase text-center">Premium Access</h5>
-                <h6 class="card-price text-center">$350</h6>
+                <h6 class="card-price text-center">Ksh.350</h6>
                 <hr>
                 <ul class="fa-ul">
                   <li><span class="fa-li"><i class="fa fa-check"></i></span>Regular Seating</li>
@@ -703,6 +703,8 @@
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
+
+            <!-- ======= Ticket Form ======= -->
               <form method="POST" action="#">
                 <div class="form-group">
                   <input type="text" class="form-control" name="your-name" placeholder="Your Name">
@@ -712,16 +714,18 @@
                 </div>
                 <div class="form-group mt-3">
                   <select id="ticket-type" name="ticket-type" class="form-select">
-                    <option value="">-- Select Your Ticket Type --</option>
-                    <option value="standard-access">Standard Access</option>
-                    <option value="pro-access">Pro Access</option>
-                    <option value="premium-access">Premium Access</option>
+                    <option value="">--   Preffered Ticket Access --</option>
+                    <option value="standard-access">Standard (150)</option>
+                    <option value="pro-access">Pro (250)</option>
+                    <option value="premium-access">Premium (350)</option>
                   </select>
                 </div>
                 <div class="text-center mt-3">
                   <button type="submit" class="btn">Buy Now</button>
                 </div>
               </form>
+            <!-- ======= Ticket Form ======= -->
+
             </div>
           </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->

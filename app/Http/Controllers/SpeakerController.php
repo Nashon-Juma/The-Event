@@ -6,16 +6,15 @@ use Illuminate\Http\Request;
 
 class SpeakerController extends Controller
 {
-    public function show($id){
-        $id='show';
-        return view('speaker/'.$id);
+    public function show(){
+        return view('speaker.show');
     }
     public function create($create){
         $create='create';
         return view('speaker/'.$create);
     }
 
-    public function speakers($id){
+    public function singleSpeaker($id){
         return view('speaker/'.$id);
     }
 }

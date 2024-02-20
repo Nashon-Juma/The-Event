@@ -25,16 +25,13 @@ Route::get('/contact', function () {return view('contact');
 Route::get('/order', [TicketController::class,'index'
 ]);
 
-Route::get('order/create',[TicketController::class,'create'
-]);
-
 Route::get('/order/{id}',[TicketController::class,'show'
 ]);
 
 
-Route::get('/speaker/{id}',[SpeakerController::class,'speakers'
+Route::get('/speaker/{id}',[SpeakerController::class,'singleSpeaker'
 ]);
 
-Route::get('/ss',function () {return view('speaker.create');});
+Route::get('/site-admin-new',function () {return view('speaker.create');});
 
-Route::get('/sq',function () {return view('speaker.show');});
+Route::get('/site-admin-db',function () {return view('speaker.show');});

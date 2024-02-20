@@ -441,11 +441,8 @@ figure:hover img{
 </head>
 <div class="bodyy" >
     <nav>
-        <p class="sitename">CoolSite</p>
-        <p class="menu">Services</p>
-        <p class="menu">Pricing</p>
-        <p class="menu">Features</p>
-        <p class="menu">About us</p>
+        <p class="sitename">Admin Dashbord</p>
+
         <svg class="material-icons" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"><path d="M0 0h24v24H0z" fill="none"/><path d="M19 9H5c-.55 0-1 .45-1 1s.45 1 1 1h14c.55 0 1-.45 1-1s-.45-1-1-1zM5 15h14c.55 0 1-.45 1-1s-.45-1-1-1H5c-.55 0-1 .45-1 1s.45 1 1 1z"/></svg>
       </nav>
 
@@ -462,17 +459,38 @@ figure:hover img{
         <div class="blur"></div>
       </div>
 
-      <div class="title">
-        <p>Powerful</p>
-        <p>UI Design</p>
-        <p>Tool</p>
+      <div class="container">
+
+        <figure>
+          <img src="https://plus.unsplash.com/premium_photo-1664361480105-33afc4559c40?q=80&w=1523&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Thumb" width="400" height="300" />
+          <figcaption><div>Thumbnail Caption</div></figcation>
+        </figure>
+
+        <figure>
+          <img src="https://images.unsplash.com/photo-1519865885898-a54a6f2c7eea?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3BsYXNofGVufDB8fDB8fHww" alt="Thumb" width="400" height="300" />
+          <figcaption><div>Thumbnail Caption</div></figcation>
+        </figure>
+
+
+        <figure>
+          <img src="https://plus.unsplash.com/premium_photo-1699097156261-0c3987286b11?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHx8" alt="Thumb" width="400" height="300" />
+          <figcaption><div>Thumbnail Caption</div></figcation>
+        </figure>
+
+
+        <figure>
+          <img src="https://plus.unsplash.com/premium_photo-1699626665978-09f9e1231943?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxN3x8fGVufDB8fHx8fA%3D%3D" alt="Thumb" width="400" height="300" />
+          <figcaption><div>Thumbnail Caption</div></figcation>
+        </figure>
+
+
       </div>
 
-      <a href="https://dribbble.com/shots/23181733-Blurry-Glassmorphic-Modern-Landing-page" target="_blank" class="button first"><button>View Source</button><span></span></a>
+      <a href="/" target="_blank" class="button first"><button>HOME</button><span></span></a>
 
-      <a href="https://youtu.be/1pW_sk-2y40" target="_blank" class="button sec"><button>Watch Video</button><span></span></a>
+      <a href="/" target="_blank" class="button sec"><button>All</button><span></span></a>
 
-      <a href="https://x.com/juxtopposed" target="_blank" class="button third"><button>Connect</button><span></span></a>
+      <a href="/site-admin-new" target="_blank" class="button third"><button>New Speaker</button><span></span></a>
 
       <svg class="top-right" width="219" height="147" viewBox="0 0 219 147" fill="none" xmlns="http://www.w3.org/2000/svg">
         <rect opacity="0.18" x="10.4252" y="75.8326" width="7.50168" height="7.50168" transform="rotate(110.283 10.4252 75.8326)" fill="#686868" stroke="white" stroke-width="1.22683" />
@@ -492,36 +510,6 @@ figure:hover img{
 
     </div>
 
- <div class="hero">
-  <h1>Image Scale <strong>on Hover</strong> </h1>
-  </div>
-
-<div class="container">
-
-  <figure>
-    <img src="https://d13yacurqjgara.cloudfront.net/users/220419/screenshots/1714518/shot-codigo.jpg" alt="Thumb" width="400" height="300" />
-    <figcaption><div>Thumbnail Caption</div></figcation>
-  </figure>
-
-  <figure>
-    <img src="https://d13yacurqjgara.cloudfront.net/users/220419/screenshots/1678299/shot-7.jpg" alt="Thumb" width="400" height="300" />
-    <figcaption><div>Thumbnail Caption</div></figcation>
-  </figure>
-
-
-  <figure>
-    <img src="https://d13yacurqjgara.cloudfront.net/users/220419/screenshots/1664639/shot.png" alt="Thumb" width="400" height="300" />
-    <figcaption><div>Thumbnail Caption</div></figcation>
-  </figure>
-
-
-  <figure>
-    <img src="https://d13yacurqjgara.cloudfront.net/users/220419/screenshots/1644214/debut-shot.jpg" alt="Thumb" width="400" height="300" />
-    <figcaption><div>Thumbnail Caption</div></figcation>
-  </figure>
-
-
-</div>
 <table class="users">
     <thead>
       <tr>
@@ -558,90 +546,6 @@ figure:hover img{
       </tr>
     </tbody>
   </table>
-
-
-<nav>
-    <ul>
-      <li><a class="brick dashboard" href="#"><span class='icon ion-home'></span>Dashboard</a></li>
-      <li><a class="brick pages" href="#"><span class='icon ion-document'></span>Pages</a></li>
-      <li><a class="brick navigation" href="#"><span class='icon ion-android-share-alt'></span>Navigation</a></li>
-      <li><a class="brick users" href="#"><span class='icon ion-person'></span>Users</a></li>
-      <li><a class="brick settings" href="#"><span class='icon ion-gear-a'></span>Website Settings</a></li>
-    </ul>
-  </nav>
-
-  <div id="content" class="pages">
-
-    <header>
-      <div class="brick identify">
-        <span class="icon ion-document"></span>
-      </div>
-
-      <div class="brick title">
-        <h2>Home Page</h2>
-      </div>
-
-      <div class="brick close">
-        <span class="text">Close</span>
-        <span class="icon ion-close"></span>
-      </div>
-
-
-      <div class="brick save">
-        <span class="text">Save</span>
-        <span class="icon ion-checkmark"></span>
-      </div>
-
-    </header>
-
-
-
-    <div class="brick closed">
-      <hgroup>
-        <h2>Main Headline</h2>
-        <a href="#" class="icon ion-close js-close close"></a>
-        <form>
-          <input type="text" />
-        </form>
-      </hgroup>
-    </div>
-
-    <div class="brick closed">
-      <hgroup>
-        <h2>About Me</h2>
-        <a href="#" class="icon ion-close js-close close"></a>
-        <form>
-          <textarea></textarea>
-        </form>
-      </hgroup>
-    </div>
-
-    <div class="brick closed">
-      <hgroup>
-        <h2>Gallery</h2>
-        <a href="#" class="icon ion-close js-close close"></a>
-        <form>
-          <textarea></textarea>
-        </form>
-      </hgroup>
-    </div>
-
-    <div class="brick closed">
-      <hgroup>
-        <h2>Page Settings</h2>
-        <a href="#" class="icon ion-close js-close close"></a>
-        <form>
-          <textarea></textarea>
-        </form>
-      </hgroup>
-    </div>
-
-
-  </div>
-
-  <footer>
-
-  </footer>
 
 
 
