@@ -27,11 +27,11 @@ Route::get('/speaker/{id}',[SpeakerController::class,'singleSpeaker'
 
 
 
-    
+
 /*
 |--------------------------------------------------------------------------
 | SUB Pages*/
-Route::post('/thanks',[BuyController::class,'buy'
+Route::post('/thanks',[BuyController::class,'customer'
     ]);
 
 
