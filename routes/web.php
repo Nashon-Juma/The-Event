@@ -34,4 +34,4 @@ Route::get('/speaker/{id}',[SpeakerController::class,'singleSpeaker'
 
 Route::get('/site-admin-new',function () {return view('speaker.create');});
 
-Route::get('/site-admin-db',function () {return view('speaker.show');});
+Route::get('/site-admin-db',function () {return view('speaker.thank');});

@@ -13,7 +13,7 @@
     <div class="container-fluid container-xxl d-flex align-items-center">
 
       <div id="logo" class="me-auto">
-        <h1><a href="/">The<span>Event</span></a></h1>
+        <h1><a href="/">Tik<span>eti</span></a></h1>
         {{-- <a href="index.html" class="scrollto"><img src="assets/img/logo.png" alt="" title=""></a> --}}
       </div>
 
