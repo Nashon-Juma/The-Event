@@ -66,7 +66,7 @@
 
       <p>You'll speak with our customer care who wil give you more details about the event.</p>
 
-        <div class="home"><a href="/">Return to Our Home Page</a></div>
+        <div class="home"><a href="/"> Home Page </a></div>
 
     </div>
 

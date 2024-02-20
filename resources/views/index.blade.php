@@ -509,7 +509,7 @@
       <div class="container" data-aos="fade-up">
         <div class="section-header">
           <h2>Hotels</h2>
-          <p>Her are some nearby hotels</p>
+          <p>Here are some near-by hotels</p>
         </div>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
@@ -705,7 +705,8 @@
             <div class="modal-body">
 
             <!-- ======= Ticket Form ======= -->
-              <form method="POST" action="#">
+              <form method="POST" action="/buy">
+                @csrf
                 <div class="form-group">
                   <input type="text" class="form-control" name="your-name" placeholder="Your Name">
                 </div>
@@ -715,9 +716,9 @@
                 <div class="form-group mt-3">
                   <select id="ticket-type" name="ticket-type" class="form-select">
                     <option value="">--   Preffered Ticket Access --</option>
-                    <option value="standard-access">Standard (150)</option>
-                    <option value="pro-access">Pro (250)</option>
-                    <option value="premium-access">Premium (350)</option>
+                    <option value="standard-access">Standard (Ksh.150)</option>
+                    <option value="pro-access">Pro (Ksh.250)</option>
+                    <option value="premium-access">Premium (Ksh.350)</option>
                   </select>
                 </div>
                 <div class="text-center mt-3">
