@@ -36,3 +36,5 @@ Route::get('/speaker/{id}',[SpeakerController::class,'speakers'
 ]);
 
 Route::get('/ss',function () {return view('speaker.create');});
+
+Route::get('/sq',function () {return view('speaker.show');});
