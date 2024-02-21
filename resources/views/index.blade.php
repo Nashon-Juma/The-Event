@@ -708,13 +708,13 @@
               <form method="POST" action="/thanks">
                 @csrf
                 <div class="form-group">
-                  <input type="text" class="form-control" name="your_name" placeholder="Your Name">
+                  <input type="text" class="form-control" name="your_name" placeholder="Your Name"required>
                 </div>
                 <div class="form-group mt-3">
-                  <input type="text" class="form-control" name="your_email" placeholder="Your Email">
+                  <input type="text" class="form-control" name="your_email" placeholder="Your Email" required>
                 </div>
                 <div class="form-group mt-3">
-                  <select id="ticket-type" name="ticket_type" class="form-select">
+                  <select id="ticket-type" name="ticket_type" class="form-select" required>
                     <option value="">--   Preffered Ticket Access --</option>
                     <option value="standard-access">Standard (Ksh.150)</option>
                     <option value="pro-access">Pro (Ksh.250)</option>

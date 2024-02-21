@@ -24,24 +24,19 @@ Route::get('/contact', function () {return view('contact');
 Route::get('/speaker/{id}',[SpeakerController::class,'singleSpeaker'
     ]);
 
-
-
-
-
 /*
 |--------------------------------------------------------------------------
 | SUB Pages*/
 Route::post('/thanks',[BuyController::class,'customer'
     ]);
 
-
-
-
 /*
 |--------------------------------------------------------------------------
 | ADMIN Pages*/
-Route::get('/site-admin-new',function () {return view('speaker.create')
+
+Route::get('/SiteAdminNew',function () {return view('speaker.create')
     ;});
 
-Route::get('/site-admin-db',function () {return view('speaker.thank')
-    ;});
+Route::get('/SiteAdminDB',[BuyController::class,'buyers'
+    ]);
+

@@ -408,7 +408,7 @@ figure:hover img{
 }
 /* Column widths are based on these cells */
 .row-ID {
-  width: 10%;
+  width: 5%;
 }
 .row-name {
   width: 40%;
@@ -417,6 +417,12 @@ figure:hover img{
   width: 30%;
 }
 .row-email {
+  width: 20%;
+}
+.row-create {
+  width: 20%;
+}
+.row-update {
   width: 20%;
 }
 .users td {
@@ -515,39 +521,25 @@ figure:hover img{
       <tr>
         <th class="row-1 row-ID">ID</th>
         <th class="row-2 row-name">Name</th>
-        <th class="row-3 row-job">Job</th>
-        <th class="row-4 row-email">Email</th>
+        <th class="row-3 row-job">Email</th>
+        <th class="row-4 row-email">Ticket</th>
+        <th class="row-5 row-create">Created</th>
+        <th class="row-6 row-update">Update</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>0001</td>
-        <td>Johnny Five</td>
-        <td>Robotin'</td>
-        <td>need@input.com</td>
-      </tr>
-      <tr>
-        <td>0002</td>
-        <td>Super Superlonglastnamesmith</td>
-        <td>Doin' stuff</td>
-        <td>doing@stuff.com</td>
-      </tr>
-      <tr>
-        <td>0003</td>
-        <td>Roger Wilco</td>
-        <td>Truckdrivin'</td>
-        <td>roger@wilco.com</td>
-      </tr>
-      <tr>
-        <td>0004</td>
-        <td>Mad Hatter</td>
-        <td>Hat Makin'</td>
-        <td>loves@mercury.com</td>
+        @foreach ($buyers as $item)
+        <td>{{ $item->id }}</td>
+        <td>{{ $item->name }}</td>
+        <td>{{ $item->email }}</td>
+        <td>{{ $item->ticket }}</td>
+        <td>{{ $item->created_at }}</td>
+        <td>{{ $item->updated_at }}</td>
+        @endforeach
       </tr>
     </tbody>
   </table>
-
-
 
 </body>
 </html>

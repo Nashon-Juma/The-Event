@@ -55,13 +55,13 @@
     </style>
 </head>
 <x-header/>
-@extends('layout.app')
+@extends('layout.app');
 
 
-@section('content')
+@section('content');
 
     <div class="thanks">
-        <p class="title">Thank You!</p>
+        <p class="title">Thank You -> <i style="text-decoration: none;color:#b31616">{{ $p }}</i></p>
         <p><strong>We'll contact you within the next 24Hours.</strong></p>
 
       <p>You'll speak with our customer care who wil give you more details about the event.</p>
@@ -70,7 +70,7 @@
 
     </div>
 
-@endsection
+@endsection;
 </body>
 </html>
 
