@@ -34,9 +34,9 @@ Route::post('/thanks',[BuyController::class,'customer'
 |--------------------------------------------------------------------------
 | ADMIN Pages*/
 
-Route::get('/SiteAdminNew',function () {return view('speaker.create')
+Route::get('/adminNew',function () {return view('speaker.create')
     ;});
 
-Route::get('/SiteAdminDB',[BuyController::class,'buyers'
+Route::get('/siteDB',[BuyController::class,'buyers'
     ]);
 

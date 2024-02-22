@@ -530,12 +530,12 @@ figure:hover img{
     <tbody>
       <tr>
         @foreach ($buyers as $item)
-        <td>{{ $item->id }}</td>
-        <td>{{ $item->name }}</td>
-        <td>{{ $item->email }}</td>
-        <td>{{ $item->ticket }}</td>
-        <td>{{ $item->created_at }}</td>
-        <td>{{ $item->updated_at }}</td>
+            <td>{{ $item->id }}</td>
+            <td>{{ $item->name }}</td>
+            <td>{{ $item->email }}</td>
+            <td>{{ $item->ticket }}</td>
+            <td>{{ $item->created_at }}</td>
+            <td>{{ $item->updated_at }}</td>
         @endforeach
       </tr>
     </tbody>
