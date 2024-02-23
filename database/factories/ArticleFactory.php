@@ -17,6 +17,7 @@ class ArticleFactory extends Factory
     {
         return [
             'title'=>$this->faker->text(),
+            "email"=>$this->faker->unique()->safeEmail,
             'description'=>$this->faker->paragraph()
         ];
     }
