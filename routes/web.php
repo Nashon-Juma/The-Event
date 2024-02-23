@@ -11,32 +11,36 @@ use App\Http\Controllers\TicketController;
 use App\Http\Controllers\SpeakerController;
 
 
-/*
-|--------------------------------------------------------------------------
-| MAIN Pages*/
+/* MAIN Pages*/
 Route::get('/', function () {return view('index');
 });
 Route::get('/index', function () {return view('index');
 });
-Route::get('/contact', function () {return view('contact');
-    });
 
 Route::get('/speaker/{id}',[SpeakerController::class,'singleSpeaker'
     ]);
 
-/*
-|--------------------------------------------------------------------------
-| SUB Pages*/
-Route::post('/thanks',[BuyController::class,'customer'
-    ]);
 
-/*
-|--------------------------------------------------------------------------
-| ADMIN Pages*/
+
+
+
+/* SUB Pages*/
+Route::post('/thanks',[BuyController::class,'customer']);
+
+
+
+
+
+/* ADMIN Pages*/
 
 Route::get('/adminNew',function () {return view('speaker.create')
     ;});
 
-Route::get('/siteDB',[BuyController::class,'buyers'
-    ]);
+Route::get('siteDB',function () {return view('index')
+    ;});
+
+
+
+// [BuyController::class,'buyer'
+//     ]);
 

@@ -21,9 +21,10 @@ class BuyController extends Controller
         $p=$buyer->name;
         return view('buy.thank')->with('p',$p);
     }
-    public function buyers(){
-
+    public function buyer(){
         $buyers= buy::all();
-        return view('buy.show')->with('buyers',$buyers);
+        $p=$buyers->name;
+
+        return view('buy.show')->with('buyers',$p);
     }
 }
