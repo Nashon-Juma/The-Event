@@ -16,7 +16,7 @@ return new class extends Migration
                 $table->timestamps();
                 $table->string('buyer');
                 $table->string('description');
-                $table->json('type'); 
+                $table->json('type');
         });
     }
 

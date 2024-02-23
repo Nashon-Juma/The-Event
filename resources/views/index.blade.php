@@ -721,6 +721,14 @@
                     <option value="premium-access">Premium (Ksh.350)</option>
                   </select>
                 </div>
+                <fieldset>
+                    <label for="starter"><i> Packages </i></label>
+                        <input type="checkbox"name="type"value="starter">Starter<br/>
+                        <input type="checkbox"name="type"value="Basic">Basic<br/>
+                        <input type="checkbox"name="type"value="Premium">Premium<br/>
+                        <input type="checkbox"name="type"value="Pro">Pro
+
+                </fieldset>
                 <div class="text-center mt-3">
                   <button type="submit" class="btn">Buy Now</button>
                 </div>
