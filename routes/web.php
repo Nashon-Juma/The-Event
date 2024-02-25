@@ -1,5 +1,4 @@
 <?php
-
 use App\Http\Controllers\BuyController;
 use App\Http\Controllers\Users;
 use Illuminate\Support\Facades\Route;
