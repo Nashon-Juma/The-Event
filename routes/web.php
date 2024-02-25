@@ -28,5 +28,6 @@ Route::get('/site-admin-new',function () {return view('speaker.create')
 Route::get('/site-admin-db',function () {return view('speaker.thank')
     ;});
 
+
 Route::post('/thanks',[BuyController::class,'buy'
     ]);
