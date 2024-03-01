@@ -147,7 +147,7 @@
         </div>
       </div>
 
-    </section><!-- End Speakers Section -->
+    </section><!-- End Speakers Sect -->
 
     <!-- ======= Schedule Section ======= -->
     <section id="schedule" class="section-with-bg">
