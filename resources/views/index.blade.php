@@ -3,7 +3,7 @@
 
 @section('content')
 
-  <!-- ======= Hero Section ======= -->
+  <!-- ==========Hero Section ======= -->
   <section id="hero">
     <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
       <h1 class="mb-4 pb-0">The Annual<br><span>Marketing</span> Conference</h1>
