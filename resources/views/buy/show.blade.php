@@ -146,7 +146,7 @@ nav {
 }
 
 button {
-  height: 50px;
+  height: 45px;
   width: 160px;
   clip-path: path("M 0 25 C 0 -5, -5 0, 80 0 S 160 -5, 160 25, 165 50 80 50, 0 55, 0 25");
   border: none;
