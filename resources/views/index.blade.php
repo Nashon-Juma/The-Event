@@ -23,7 +23,7 @@
 
   <main id="main">
 
-    <!-- ======= About Section======= -->
+    <!-- ======= About Section ======= -->
     <section id="about">
       <div class="container position-relative" data-aos="fade-up">
         <div class="row">
