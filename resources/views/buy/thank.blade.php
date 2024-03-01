@@ -16,7 +16,7 @@
 }
 
 .title {
-  font: normal normal 30px 'Arial', 'Helvetica', sans-serif;
+  font: normal normal 32px 'Arial', 'Helvetica', sans-serif;
   text-transform: uppercase;
   margin-bottom: 20px;
   text-align: center;
