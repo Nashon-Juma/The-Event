@@ -26,7 +26,7 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
+  <!-- ===============================================
   * Template Name: TheEvent
   * Updated: Feb 06 2024 with Bootstrap v5.3.2
   * Template URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
