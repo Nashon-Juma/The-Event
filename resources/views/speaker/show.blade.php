@@ -385,7 +385,7 @@ figure:hover img{
 @font-face {
   font-family: 'Lato';
   font-style: normal;
-  font-weight: 300;
+  font-weight: 290;
   src: local('Lato Light'), local('Lato-Light'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/KT3KS9Aol4WfR6Vas8kNcg.woff) format('woff');
 }
 @font-face {
