@@ -1,7 +1,7 @@
 @extends('layout.app')
 
 
-@section('content')
+@section('content')  
 
   <!-- ==========Hero Section ======= -->
   <section id="hero">
