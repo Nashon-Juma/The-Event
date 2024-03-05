@@ -1,7 +1,7 @@
 @extends('layout.app')
 
 <head>
-    <title>New Speakers</title>
+    <title>New</title>
     <style>
         body {
   background: #2c3e50;
