@@ -27,7 +27,7 @@ h3 {
   padding: 12px;
   border-top-right-radius: 20px;
   font-weight: bolder;
-  letter-spacing: .1em;
+  letter-spacing: .1.1em;
 }
 
 .modal-content{
