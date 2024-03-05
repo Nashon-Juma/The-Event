@@ -227,7 +227,7 @@ h3 {
           </div>
 
 
-      <!-- /.container -->
+      <!-- container -->
 
       @endsection
 </body>
