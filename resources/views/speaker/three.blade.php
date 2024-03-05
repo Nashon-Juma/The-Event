@@ -5,7 +5,7 @@
 
   <main id="main" class="main-page">
 
-    <!-- ======= Speaker Details Sectionn ======= -->
+    <!-- ===== Speaker Details Sectionn ======= -->
     <section id="speakers-details">
       <div class="container">
         <div class="section-header">
