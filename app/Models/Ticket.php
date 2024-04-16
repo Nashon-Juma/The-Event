@@ -21,7 +21,7 @@ class Ticket extends Model
         'type',
         'price',
         'status',
-        'conference_id',
+        'talk_id',
     ];
 
     /**
@@ -32,11 +32,11 @@ class Ticket extends Model
     protected $casts = [
         'id' => 'integer',
         'price' => 'float',
-        'conference_id' => 'integer',
+        'talk_id' => 'integer',
     ];
 
-    public function conference(): BelongsTo
+    public function talk(): BelongsTo
     {
-        return $this->belongsTo(Conference::class);
+        return $this->belongsTo(Talk::class);
     }
 }

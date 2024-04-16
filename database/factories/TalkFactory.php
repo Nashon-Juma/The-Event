@@ -4,8 +4,8 @@ namespace Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Str;
+use App\Models\Speaker;
 use App\Models\Talk;
-use App\Models\Venue;
 
 class TalkFactory extends Factory
 {
@@ -24,8 +24,7 @@ class TalkFactory extends Factory
         return [
             'title' => $this->faker->sentence(4),
             'abstract' => $this->faker->text(),
-            'speaker_id' => $this->faker->randomNumber(),
-            'venue_id' => Venue::factory(),
+            'speaker_id' => Speaker::factory(),
         ];
     }
 }

@@ -20,7 +20,6 @@ class Talk extends Model
         'title',
         'abstract',
         'speaker_id',
-        'venue_id',
     ];
 
     /**
@@ -31,12 +30,11 @@ class Talk extends Model
     protected $casts = [
         'id' => 'integer',
         'speaker_id' => 'integer',
-        'venue_id' => 'integer',
     ];
 
-    public function venue(): BelongsTo
+    public function speaker(): BelongsTo
     {
-        return $this->belongsTo(Venue::class);
+        return $this->belongsTo(Speaker::class);
     }
 
     public function conferences(): BelongsToMany

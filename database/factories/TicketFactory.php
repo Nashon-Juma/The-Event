@@ -4,7 +4,7 @@ namespace Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Str;
-use App\Models\Conference;
+use App\Models\Talk;
 use App\Models\Ticket;
 
 class TicketFactory extends Factory
@@ -27,7 +27,7 @@ class TicketFactory extends Factory
             'type' => $this->faker->text(),
             'price' => $this->faker->randomFloat(0, 0, 9999999999.),
             'status' => $this->faker->word(),
-            'conference_id' => Conference::factory(),
+            'talk_id' => Talk::factory(),
         ];
     }
 }

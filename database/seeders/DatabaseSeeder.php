@@ -3,7 +3,15 @@
 namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use App\Models\Talk;
+use App\Models\User;
+use App\Models\Ticket;
+use App\Models\Speaker;
+use App\Models\Conference;
+use App\Models\Venue;
 use Illuminate\Database\Seeder;
+use Database\Factories\TalkFactory;
+use Database\Factories\TicketFactory;
 
 class DatabaseSeeder extends Seeder
 {
@@ -12,12 +20,6 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        $this->call(ArticleSeeder::class);
-        // \App\Models\User::factory(10)->create();
-
-        // \App\Models\User::factory()->create([
-        //     'name' => 'Test User',
-        //     'email' => 'test@example.com',
-        // ]);
+        User::factory(10)->create();
     }
 }

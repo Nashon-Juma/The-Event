@@ -21,7 +21,8 @@ models:
     postal_code: string
     relationships:
       hasMany:
-        - Conference
+        - Conference,
+        - Talk
 
   Speaker:
     name: string
@@ -38,7 +39,7 @@ models:
     speaker_id: unsignedInteger
     relationships:
       belongsTo:
-        - Venue
+        - Speaker
       belongsToMany:
         - Conference
   Ticket:
@@ -49,4 +50,4 @@ models:
    status: string
    relationships:
      belongsTo:
-      - Conference
+      - Talk

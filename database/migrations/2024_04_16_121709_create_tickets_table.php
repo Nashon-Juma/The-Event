@@ -11,12 +11,14 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('talks', function (Blueprint $table) {
+        Schema::create('tickets', function (Blueprint $table) {
             $table->id();
-            $table->string('title');
-            $table->text('abstract');
-            $table->unsignedInteger('speaker_id');
-            $table->foreignId('venue_id');
+            $table->string('buyer');
+            $table->string('description');
+            $table->text('type');
+            $table->float('price');
+            $table->string('status');
+            $table->foreignId('talk_id');
             $table->timestamps();
         });
     }
@@ -26,6 +28,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('talks');
+        Schema::dropIfExists('tickets');
     }
 };

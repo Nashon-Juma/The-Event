@@ -35,4 +35,9 @@ class Venue extends Model
     {
         return $this->hasMany(Conference::class);
     }
+
+    public function talks(): HasMany
+    {
+        return $this->hasMany(Talk::class);
+    }
 }
