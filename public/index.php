@@ -48,8 +48,8 @@ $app = require_once __DIR__.'/../bootstrap/app.php';
 
 $kernel = $app->make(Kernel::class);
 
-$request = Request::createFromGlobals();
-$response = $kernel->handle($request);
-$response->send();
+$response = $kernel->handle(
+    $request = Request::capture()
+)->send();
 
 $kernel->terminate($request, $response);
