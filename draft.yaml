@@ -27,6 +27,7 @@ models:
   Speaker:
     name: string
     email: string
+    photo: string 
     bio: text
     twitter_handle: text
     relationships:

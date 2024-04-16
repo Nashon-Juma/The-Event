@@ -4,13 +4,13 @@ created:
     - database/factories/SpeakerFactory.php
     - database/factories/TalkFactory.php
     - database/factories/TicketFactory.php
-    - database/migrations/2024_04_16_123301_create_conferences_table.php
-    - database/migrations/2024_04_16_123302_create_venues_table.php
-    - database/migrations/2024_04_16_123303_create_speakers_table.php
-    - database/migrations/2024_04_16_123304_create_talks_table.php
-    - database/migrations/2024_04_16_123305_create_tickets_table.php
-    - database/migrations/2024_04_16_123306_create_conference_speaker_table.php
-    - database/migrations/2024_04_16_123307_create_conference_talk_table.php
+    - database/migrations/2024_04_16_132352_create_conferences_table.php
+    - database/migrations/2024_04_16_132353_create_venues_table.php
+    - database/migrations/2024_04_16_132354_create_speakers_table.php
+    - database/migrations/2024_04_16_132355_create_talks_table.php
+    - database/migrations/2024_04_16_132356_create_tickets_table.php
+    - database/migrations/2024_04_16_132357_create_conference_speaker_table.php
+    - database/migrations/2024_04_16_132358_create_conference_talk_table.php
     - app/Models/Conference.php
     - app/Models/Venue.php
     - app/Models/Speaker.php
@@ -21,6 +21,6 @@ models:
     buy: {  }
     Conference: { name: string, description: string, start_date: datetime, end_date: datetime, status: string, region: string, venue_id: 'unsignedInteger nullable', relationships: { belongsTo: Venue, belongsToMany: 'Speaker, Talk' } }
     Venue: { name: string, city: string, country: string, postal_code: string, relationships: { hasMany: 'Conference, Talk' } }
-    Speaker: { name: string, email: string, bio: text, twitter_handle: text, relationships: { hasMany: Talk } }
+    Speaker: { name: string, email: string, photo: string, bio: text, twitter_handle: text, relationships: { hasMany: Talk } }
     Talk: { title: string, abstract: text, speaker_id: unsignedInteger, relationships: { belongsTo: Speaker, belongsToMany: Conference } }
     Ticket: { buyer: string, description: string, type: text, price: float, status: string, relationships: { belongsTo: Talk } }
