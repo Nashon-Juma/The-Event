@@ -25,7 +25,7 @@ class TicketFactory extends Factory
             'buyer' => $this->faker->word(),
             'description' => $this->faker->text(),
             'type' => $this->faker->text(),
-            'price' => $this->faker->randomFloat(0, 0, 9999999999.),
+            'price' => $this->faker->randomFloat(2, 0, 9999.99),
             'status' => $this->faker->word(),
             'talk_id' => Talk::factory(),
         ];
