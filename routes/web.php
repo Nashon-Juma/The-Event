@@ -28,25 +28,3 @@ Route::get('/speaker/{id}',[SpeakerController::class,'singleSpeaker'
 /* SUB Pages*/
 Route::post('/thanks',[BuyController::class,'customer']);
 
-
-
-
-
-/* ADMIN Pages*/
-
-Route::get('/adminNew',function () {return view('speaker.create')
-    ;});
-
-Route::get('siteDB',function () {return view('index')
-    ;});// [BuyController::class,'buyer']);
-
-
-/* BLOG Pages*/
-Route::get('/blog',[ ArticlesController::class,'index'
-    ]);
-Route::get('/blog/nocache',[ ArticlesController::class,'WithoutCache'
-    ]);
-
-
-
-

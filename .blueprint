@@ -4,13 +4,13 @@ created:
     - database/factories/SpeakerFactory.php
     - database/factories/TalkFactory.php
     - database/factories/TicketFactory.php
-    - database/migrations/2024_04_16_121705_create_conferences_table.php
-    - database/migrations/2024_04_16_121706_create_venues_table.php
-    - database/migrations/2024_04_16_121707_create_speakers_table.php
-    - database/migrations/2024_04_16_121708_create_talks_table.php
-    - database/migrations/2024_04_16_121709_create_tickets_table.php
-    - database/migrations/2024_04_16_121710_create_conference_speaker_table.php
-    - database/migrations/2024_04_16_121711_create_conference_talk_table.php
+    - database/migrations/2024_04_16_123301_create_conferences_table.php
+    - database/migrations/2024_04_16_123302_create_venues_table.php
+    - database/migrations/2024_04_16_123303_create_speakers_table.php
+    - database/migrations/2024_04_16_123304_create_talks_table.php
+    - database/migrations/2024_04_16_123305_create_tickets_table.php
+    - database/migrations/2024_04_16_123306_create_conference_speaker_table.php
+    - database/migrations/2024_04_16_123307_create_conference_talk_table.php
     - app/Models/Conference.php
     - app/Models/Venue.php
     - app/Models/Speaker.php
