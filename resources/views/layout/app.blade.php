@@ -67,7 +67,8 @@
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-info">
-            <img src="assets/img/logo.png" alt="TheEvenet">
+            <h1><a href="/">Tik<span>eti</span></a></h1>
+            {{-- <img src="assets/img/logo.png" alt="TheEvenet"> --}}
             <p>In alias aperiam. Placeat tempore facere. Officiis voluptate ipsam vel eveniet est dolor et totam porro. Perspiciatis ad omnis fugit molestiae recusandae possimus. Aut consectetur id quis. In inventore consequatur ad voluptate cupiditate debitis accusamus repellat cumque.</p>
           </div>
 
@@ -123,7 +124,7 @@
       </div>
       <div class="credits">
 
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by <a href="https://bootstrapmade.com/">Juma</a>
       </div>
     </div>
   </footer>

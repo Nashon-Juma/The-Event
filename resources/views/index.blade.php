@@ -6,16 +6,9 @@
     <section id="hero">
         <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
             <h1 class="mb-4 pb-0">The Annual<br><span>Marketing</span> Conference</h1>
-            {{--  --}}
-            {{--  --}}
-            {{--  --}}
-            {{--  --}}
-            {{-- <p class="mb-4 pb-0">{{ venue->date }}, {{ venue->hall }}, {{ venue->city }}</p> --}}
-            {{--  --}}
-            {{--  --}}
-            {{--  --}}
-            {{--  --}}
 
+            {{-- <p class="mb-4 pb-0">{{ venue->date }}, {{ venue->hall }}, {{ venue->city }}</p> --}}
+            
             <a href="#about" class="about-btn scrollto">About The Next Event</a>
         </div>
     </section><!-- End Hero Section -->
