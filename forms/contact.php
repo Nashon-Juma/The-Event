@@ -10,6 +10,7 @@ use Symfony\Component\Mime\Email;
  * For more info and help: https://bootstrapmade.com
  */
 
+
 // Replace contact@example.com with your real receiving email address
 $receiving_email_address = 'contact@example.com';
 
